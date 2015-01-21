@@ -31,7 +31,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   ModularKit: 87035492eaa07db8ab3a965c40b0c0dff5ddbe1c
-  ModularKitTests: 1986d685207ab6dd1a1a0edd2a902d78d672eb7d
+  ModularKitTests: a9ed920e812a3fcbf0a15957b16f56793379fc02
   OCMock: ecdd510b73ef397f2f97274785c1e87fd147c49f
   Specta: d2158a483ad179e5f8d3a29f75ff4fc0ff6fab16
 
