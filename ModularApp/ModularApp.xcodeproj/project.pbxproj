@@ -77,9 +77,8 @@
 		0B399A111A6FECAC00BE6483 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0B399A1E1A6FECFA00BE6483 /* AppDelegate.h */,
-				0B399A1F1A6FECFA00BE6483 /* AppDelegate.m */,
-				0B399A201A6FECFA00BE6483 /* main.m */,
+				0B5C712D1A6FEED000F3AF18 /* Supporting Files */,
+				0B5C712C1A6FEEBA00F3AF18 /* AppDelegate */,
 				0B399A211A6FECFA00BE6483 /* ViewController.h */,
 				0B399A221A6FECFA00BE6483 /* ViewController.m */,
 			);
@@ -122,6 +121,23 @@
 				0B3ACB3C1A6FAE7A0080D72E /* ModularAppTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0B5C712C1A6FEEBA00F3AF18 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0B399A1E1A6FECFA00BE6483 /* AppDelegate.h */,
+				0B399A1F1A6FECFA00BE6483 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0B5C712D1A6FEED000F3AF18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B399A201A6FECFA00BE6483 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
