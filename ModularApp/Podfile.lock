@@ -1,0 +1,32 @@
+PODS:
+  - ModularKit
+  - ModularKitTests:
+    - ModularKit
+    - Specta
+  - Specta (0.3.0.beta1)
+
+DEPENDENCIES:
+  - ModularKit (from `../ModularKit`)
+  - ModularKitTests (from `../ModularKit`)
+  - Specta (from `https://github.com/specta/specta`, commit `9371f3a3a2a4316efae04ebc135cdcf89086e975`)
+
+EXTERNAL SOURCES:
+  ModularKit:
+    :path: ../ModularKit
+  ModularKitTests:
+    :path: ../ModularKit
+  Specta:
+    :commit: 9371f3a3a2a4316efae04ebc135cdcf89086e975
+    :git: https://github.com/specta/specta
+
+CHECKOUT OPTIONS:
+  Specta:
+    :commit: 9371f3a3a2a4316efae04ebc135cdcf89086e975
+    :git: https://github.com/specta/specta
+
+SPEC CHECKSUMS:
+  ModularKit: 87035492eaa07db8ab3a965c40b0c0dff5ddbe1c
+  ModularKitTests: fe21545f0a3bd5ae5c0b7e509ae7cf6fae9542e8
+  Specta: d2158a483ad179e5f8d3a29f75ff4fc0ff6fab16
+
+COCOAPODS: 0.36.0.beta.1
