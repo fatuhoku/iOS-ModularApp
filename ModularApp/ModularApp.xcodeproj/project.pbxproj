@@ -72,7 +72,8 @@
 		0B399A101A6FEC9600BE6483 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				0BCC2B621A7006CA00C9D4E6 /* ModularAppTests.m */,
+				0BCC2B601A7006CA00C9D4E6 /* Resources */,
+				0BCC2B681A70078300C9D4E6 /* Sources */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -113,7 +114,6 @@
 			children = (
 				0B399A0F1A6FEC7E00BE6483 /* Main */,
 				0B399A101A6FEC9600BE6483 /* Test */,
-				0BCC2B5F1A7006CA00C9D4E6 /* ModularAppTests */,
 				0B3ACB241A6FAE7A0080D72E /* Products */,
 				2BC7F84B47454E6ACC6F8176 /* Pods */,
 				B85F50A92841DE71C80C954B /* Frameworks */,
@@ -146,20 +146,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0BCC2B5F1A7006CA00C9D4E6 /* ModularAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				0BCC2B601A7006CA00C9D4E6 /* Supporting Files */,
-			);
-			path = ModularAppTests;
-			sourceTree = "<group>";
-		};
-		0BCC2B601A7006CA00C9D4E6 /* Supporting Files */ = {
+		0BCC2B601A7006CA00C9D4E6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				0BCC2B611A7006CA00C9D4E6 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			name = Resources;
+			path = ModularAppTests;
+			sourceTree = "<group>";
+		};
+		0BCC2B681A70078300C9D4E6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0BCC2B621A7006CA00C9D4E6 /* ModularAppTests.m */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 		2BC7F84B47454E6ACC6F8176 /* Pods */ = {
