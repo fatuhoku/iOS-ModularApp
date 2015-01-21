@@ -2,15 +2,9 @@
 
 SpecBegin(MODFantasticString)
 
-describe(@"things", ^{
-    it(@"should work", ^{
+describe(@"Greeting string", ^{
+    it(@"should say 'Hello' followed by the person's name.", ^{
         expect([MODFantasticStrings greetingsStringFor:@"Richard"]).to.equal(@"Hello Richard");
-    });
-    it(@"here's another test...", ^{
-        expect(1).to.equal(0);
-    });
-    it(@"THIRD TEST", ^{
-        expect(@"FAIL").to.equal(@"B");
     });
 });
 
