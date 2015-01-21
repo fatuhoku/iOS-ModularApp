@@ -13,8 +13,9 @@
 		0B399A231A6FECFA00BE6483 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B399A1F1A6FECFA00BE6483 /* AppDelegate.m */; };
 		0B399A241A6FECFA00BE6483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B399A201A6FECFA00BE6483 /* main.m */; };
 		0B399A251A6FECFA00BE6483 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B399A221A6FECFA00BE6483 /* ViewController.m */; };
-		0BCC2B631A7006CA00C9D4E6 /* ModularAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCC2B621A7006CA00C9D4E6 /* ModularAppTests.m */; };
 		DCDA954F926EB0EBCF682B93 /* libPods-ModularAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DA11267C8D8034D0C05271 /* libPods-ModularAppTests.a */; };
+		E22BA40804E215E39C5165CC /* ModularAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAE6E2EBF0AFEBF437E9F /* ModularAppTests.m */; };
+		E22BAB5F48C73D27E29B213F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22BA44033F6F632D33882F9 /* Info.plist */; };
 		FAF6C72BABE8A87DD013644A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAE0F913CD1DE2350A5E404 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,13 +32,13 @@
 		0B399A221A6FECFA00BE6483 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Main/Sources/ViewController.m; sourceTree = "<group>"; };
 		0B3ACB231A6FAE7A0080D72E /* ModularApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCC2B5E1A7006CA00C9D4E6 /* ModularAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BCC2B611A7006CA00C9D4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BCC2B621A7006CA00C9D4E6 /* ModularAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ModularAppTests.m; path = ModularAppTests/ModularAppTests.m; sourceTree = "<group>"; };
 		44DA439E2ED760EE2674E395 /* Pods-ModularAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModularAppTests/Pods-ModularAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		59DA11267C8D8034D0C05271 /* libPods-ModularAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModularAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAE0F913CD1DE2350A5E404 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		91880217404A17363D4E9B97 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AE25AE3D157C7549D8E6B645 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E22BA44033F6F632D33882F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		E22BAE6E2EBF0AFEBF437E9F /* ModularAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModularAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +69,6 @@
 			);
 			name = Main;
 			sourceTree = SOURCE_ROOT;
-		};
-		0B399A101A6FEC9600BE6483 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				0BCC2B601A7006CA00C9D4E6 /* Resources */,
-				0BCC2B681A70078300C9D4E6 /* Sources */,
-			);
-			name = Test;
-			sourceTree = "<group>";
 		};
 		0B399A111A6FECAC00BE6483 /* Sources */ = {
 			isa = PBXGroup;
@@ -113,10 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				0B399A0F1A6FEC7E00BE6483 /* Main */,
-				0B399A101A6FEC9600BE6483 /* Test */,
 				0B3ACB241A6FAE7A0080D72E /* Products */,
 				2BC7F84B47454E6ACC6F8176 /* Pods */,
 				B85F50A92841DE71C80C954B /* Frameworks */,
+				E22BA0D529AF141C22A4243C /* Test */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,23 +138,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0BCC2B601A7006CA00C9D4E6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0BCC2B611A7006CA00C9D4E6 /* Info.plist */,
-			);
-			name = Resources;
-			path = ModularAppTests;
-			sourceTree = "<group>";
-		};
-		0BCC2B681A70078300C9D4E6 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				0BCC2B621A7006CA00C9D4E6 /* ModularAppTests.m */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
 		2BC7F84B47454E6ACC6F8176 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +156,31 @@
 				59DA11267C8D8034D0C05271 /* libPods-ModularAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22BA0D529AF141C22A4243C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E22BA771FE24DD6359BF19A9 /* Sources */,
+				E22BA5746C2D3FAB95E98CF5 /* Resources */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E22BA5746C2D3FAB95E98CF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E22BA44033F6F632D33882F9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E22BA771FE24DD6359BF19A9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E22BAE6E2EBF0AFEBF437E9F /* ModularAppTests.m */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22BAB5F48C73D27E29B213F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCC2B631A7006CA00C9D4E6 /* ModularAppTests.m in Sources */,
+				E22BA40804E215E39C5165CC /* ModularAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +497,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ModularAppTests/Info.plist;
+				INFOPLIST_FILE = Test/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -510,7 +511,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ModularAppTests/Info.plist;
+				INFOPLIST_FILE = Test/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
