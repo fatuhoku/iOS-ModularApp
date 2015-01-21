@@ -10,23 +10,12 @@
 		0B399A1A1A6FECF100BE6483 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B399A141A6FECF100BE6483 /* LaunchScreen.xib */; };
 		0B399A1B1A6FECF100BE6483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B399A161A6FECF100BE6483 /* Main.storyboard */; };
 		0B399A1C1A6FECF100BE6483 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B399A181A6FECF100BE6483 /* Images.xcassets */; };
-		0B399A1D1A6FECF100BE6483 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B399A191A6FECF100BE6483 /* Info.plist */; };
 		0B399A231A6FECFA00BE6483 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B399A1F1A6FECFA00BE6483 /* AppDelegate.m */; };
 		0B399A241A6FECFA00BE6483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B399A201A6FECFA00BE6483 /* main.m */; };
 		0B399A251A6FECFA00BE6483 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B399A221A6FECFA00BE6483 /* ViewController.m */; };
 		CF457CA301202DF1E4803DC8 /* libPods-ModularAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DA11267C8D8034D0C05271 /* libPods-ModularAppTests.a */; };
 		FAF6C72BABE8A87DD013644A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAE0F913CD1DE2350A5E404 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0B3ACB3D1A6FAE7A0080D72E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B3ACB1B1A6FAE7A0080D72E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B3ACB221A6FAE7A0080D72E;
-			remoteInfo = ModularApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0666D431442C507D18C12D79 /* Pods-ModularAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModularAppTests/Pods-ModularAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -207,7 +196,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				0B3ACB3E1A6FAE7A0080D72E /* PBXTargetDependency */,
 			);
 			name = ModularAppTests;
 			productName = ModularAppTests;
@@ -255,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B399A1D1A6FECF100BE6483 /* Info.plist in Resources */,
 				0B399A1C1A6FECF100BE6483 /* Images.xcassets in Resources */,
 				0B399A1A1A6FECF100BE6483 /* LaunchScreen.xib in Resources */,
 				0B399A1B1A6FECF100BE6483 /* Main.storyboard in Resources */,
@@ -353,14 +340,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0B3ACB3E1A6FAE7A0080D72E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0B3ACB221A6FAE7A0080D72E /* ModularApp */;
-			targetProxy = 0B3ACB3D1A6FAE7A0080D72E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0B399A141A6FECF100BE6483 /* LaunchScreen.xib */ = {
