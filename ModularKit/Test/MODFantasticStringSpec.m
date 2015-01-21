@@ -9,6 +9,9 @@ describe(@"things", ^{
     it(@"here's another test...", ^{
         expect(1).to.equal(0);
     });
+    it(@"THIRD TEST", ^{
+        expect(@"FAIL").to.equal(@"B");
+    });
 });
 
 SpecEnd

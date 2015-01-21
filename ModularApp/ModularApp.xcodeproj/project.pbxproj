@@ -14,7 +14,7 @@
 		0B399A241A6FECFA00BE6483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B399A201A6FECFA00BE6483 /* main.m */; };
 		0B399A251A6FECFA00BE6483 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B399A221A6FECFA00BE6483 /* ViewController.m */; };
 		DCDA954F926EB0EBCF682B93 /* libPods-ModularAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DA11267C8D8034D0C05271 /* libPods-ModularAppTests.a */; };
-		E22BA40804E215E39C5165CC /* ModularAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAE6E2EBF0AFEBF437E9F /* ModularAppTests.m */; };
+		E22BA40804E215E39C5165CC /* ModularAppDummyTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BAE6E2EBF0AFEBF437E9F /* ModularAppDummyTestCase.m */; };
 		E22BAB5F48C73D27E29B213F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E22BA44033F6F632D33882F9 /* Info.plist */; };
 		FAF6C72BABE8A87DD013644A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAE0F913CD1DE2350A5E404 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,7 @@
 		91880217404A17363D4E9B97 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AE25AE3D157C7549D8E6B645 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E22BA44033F6F632D33882F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		E22BAE6E2EBF0AFEBF437E9F /* ModularAppTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModularAppTests.m; sourceTree = "<group>"; };
+		E22BAE6E2EBF0AFEBF437E9F /* ModularAppDummyTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModularAppDummyTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,7 @@
 		E22BA771FE24DD6359BF19A9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E22BAE6E2EBF0AFEBF437E9F /* ModularAppTests.m */,
+				E22BAE6E2EBF0AFEBF437E9F /* ModularAppDummyTestCase.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22BA40804E215E39C5165CC /* ModularAppTests.m in Sources */,
+				E22BA40804E215E39C5165CC /* ModularAppDummyTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@ platform :ios, '7.0'
 
 pod 'ModularKit', :path => '../ModularKit'
 
-target 'ModularAppTests', :exclusive => true do
+target 'ModularAppDummyTestCase', :exclusive => true do
   pod 'Specta', :git => 'https://github.com/specta/specta', :commit => '9371f3a3a2a4316efae04ebc135cdcf89086e975'
   pod 'ModularKitTests', :path => '../ModularKit'
 end
